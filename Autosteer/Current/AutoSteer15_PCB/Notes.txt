@@ -1,0 +1,5 @@
+Micro is on Teensy Serial 3.
+simpleRTK2b is on Teensy Serial 8.
+
+Adafruit IMU is on Serial 5.
+Sparkfun IMU is on Serial 4.
