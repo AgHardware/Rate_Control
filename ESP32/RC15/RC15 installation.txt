@@ -1,0 +1,22 @@
+1. upload RC_ESP32 firmware with a usb cable. Subsequent updates can be uploaded over wifi. In a browser enter "192.168.100.1/update" to get to the update page.
+
+2. To use wifi connect the tablet to the hotspot created by the ESP32. Password "111222333'.
+
+3. Ethernet can be used instead of wifi. A W5500 ethernet module is required. Example: https://protosupplies.com/product/ethernet-module-w5500/
+
+4. External relays can be connected with a qwiic cable and 5V power + ground using the relay driver pcb here: https://github.com/AgHardware/Rate_Control/tree/main/RelayDriver5 In module configurations select "PCA9555 8 relays" or "PCA9555 16 relays".
+
+5. For on-board relays set module configuration to "PCA9685 single". Each pin can control one single acting valve. The "PCA96785 paired" mode uses 2 pins to control one dual acting valve, powered on and off.
+
+6. Two rates can be controlled with M1A/M1B and M2A/M2B connections to each rate control valve. Flow1/Flow2 can use up to a 12V signal to measure flow/rpm rates.
+
+7. Up to 4 analog sensors can be connected for pressure.
+
+8. PCB connector 23 pin Ampseal 770680-1. An example can be found here with wires: https://www.ebay.ca/itm/385526456153
+
+9. The ESP32 uses an IPX antenna. An example can be found here: https://universal-solder.ca/product/2-4ghz-antenna-wi-fi-bluetooth-sma-ipx/
+
+10. The pcb uses a mini-fuse, 10-15 amps.
+
+
+
