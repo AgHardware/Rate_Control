@@ -1,5 +1,7 @@
 ### [Nano RC12-2](Nano/RC12-2)
-- uses a Nano (with ENC28J60 Ethernet shield) and an on-board mounted Cytron
+- uses a Nano (with ENC28J60 Ethernet shield) & an on-board mounted Cytron for rate control
+	- either (1) [MD13S](https://www.cytron.io/p-13amp-6v-30v-dc-motor-driver) for single rate control
+ 	- or (1) [MDD10A](https://www.cytron.io/p-10amp-5v-30v-dc-motor-driver-2-channels) for single rate control
 - self assembled through-hole board, least expensive
 - controls one rate
 - can be connected to a relay module with another small pcb
@@ -7,7 +9,9 @@
 
 #
 ### [Teensy 4.1 RC11](Teensy/RC11_PCB)
-- uses a Teensy and up to two Cytrons mounted off-board
+- uses a Teensy & an on-board mounted Cytron for rate control
+	- either (1) [MD13S](https://www.cytron.io/p-13amp-6v-30v-dc-motor-driver) for single rate control
+ 	- or (1) [MDD10A](https://www.cytron.io/p-10amp-5v-30v-dc-motor-driver-2-channels) for dual rate control
 - small components are surface mount parts
 - Teensy Ethernet or ESP8266 (ESP-12F) Wifi
 - can control two rates and eight sections
