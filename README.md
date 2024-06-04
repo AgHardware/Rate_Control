@@ -1,7 +1,7 @@
 ### [Nano RC12-2](Nano/RC12-2)
 - uses a Nano (with ENC28J60 Ethernet shield) & an on-board mounted Cytron for rate control
 	- either (1) [MD13S](https://www.cytron.io/p-13amp-6v-30v-dc-motor-driver) for single rate control
- 	- or (1) [MDD10A](https://www.cytron.io/p-10amp-5v-30v-dc-motor-driver-2-channels) for single rate control
+ 	- or (1) [MD10C](https://www.cytron.io/c-motor-and-motor-driver/c-motor-driver/p-10amp-5v-30v-dc-motor-driver) for single rate control
 - self assembled through-hole board, least expensive
 - controls one rate
 - can be connected to a relay module with another small pcb
