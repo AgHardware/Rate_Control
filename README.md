@@ -5,6 +5,7 @@
 - self assembled through-hole board, least expensive
 - controls one rate
 - can be connected to a relay module with another small pcb
+- [OSHPARK](https://oshpark.com/shared_projects/UU8e90h9)
 ![Nano-RC12 photo](Nano/RC12-2/RC12-2.jpg)
 
 #
